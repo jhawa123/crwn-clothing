@@ -2,7 +2,7 @@ import React from 'react';
 
 import './collection-item.style.scss';
 
-const CollectioItem = ({ id, name, price, imageUrl }) => (
+const CollectionItem = ({ id, name, price, imageUrl }) => (
     <div className='collection-item'>
     <div 
     className='image'
@@ -18,4 +18,4 @@ const CollectioItem = ({ id, name, price, imageUrl }) => (
 
 );
 
-export default CollectioItem;
+export default CollectionItem;
